@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+header{
+    background: #0A2239;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh
+}
+nav {
+    position: relative;
+}
+.nav-links{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 100px;
+    background: #1D84B5;
+    border-radius: 30px;
+
+}
+.nav-links ul li:hover{
+    background: #3c91ba;
+    transition: .2s;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+}
+
+h1{
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 75px;
+    left: 200px;
+    top: 250px;
+}
+#about{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 200px;
+    top: 400px
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: white;
+    bottom: 100px;
+}
+
+#biography{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 200px;
+    top: 400px
+}
+#Headshot{
+    position: absolute;
+    width: 273px;
+    height: 460px;
+    z-index: 1;
+    left: 925px;
+    bottom: -150px;
+}
+.square{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    background-color: #1D84B5;
+    border-width: 150px;
+    left: 910px;
+    bottom: -170px;
+}
+.rectangle{
+    position: absolute;
+    background-color: #1D84B5;
+    height: 10px;
+    width: 125px;
+    z-index: 1;
+    bottom: 230px;
+}
+.rectangle2{
+    position: absolute;
+    height: 10px;
+    width: 125px;
+    background-color: #1D84B5;
+    left: 695px;
+}
+#skills{
+    background-color: #E8E9ED;
+    height: 75vh;
+
+}
+#skillsheader{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+.SkillsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.SkillsCaptions{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.SkillsCaptions p{
+    font-family: "Agency FB", sans-serif;
+    font-size: 30px;
+    margin: 0 40px;
+}
+#Python{
+    width: 15%;
+    height: 15%;
+}
+#Java{
+    width: 15%;
+    height: 15vw;
+}
+#JavaScript{
+    width: 15%;
+    height: 15%;
+}
+#HTML{
+    width: 15%;
+    height: 15%;
+}
+#CSS{
+    width: 15%;
+    height: 15%;
+}
+.rectangle3{
+    position: absolute;
+    height: 10px;
+    width: 170px;
+    background-color: #1D84B5;
+    left: 674px;
+}
+.PortfolioContainer{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+#portfolio{
+    background: #0A2239;
+    height: 75vh;
+}
+#portfolioheader{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+#tictactoe{
+    position: absolute;
+    height: 30%;
+    width: 25%;
+    left: 100px;
+}
+#spreadsheet{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 525px;
+
+}
+#piano{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 1025px;
+
+}
+.PortfolioCaptions{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10px;
+}
+.PortfolioCaptions p{
+    font-family: "Agency FB", sans-serif;
+    font-size: 30px;
+    margin-top: 270px;
+    color: white;
+}
+#GithubRepo{
+    font-family: "Agency FB", sans-serif;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+#HRST{
+    margin-left: 50px;
+}
+footer{
+    background-color: #E8E9ED;
+    height: 60vh;
+}
+#github{
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+#linkedin{
+    width: 200px;
+    height: 200px;
+}
+#mail{
+    width: 250px;
+    height: 200px;
+}
+.contactImages{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#contacts{
+    font-family: "Agency FB", sans-serif;
+    color: black;
+    padding-top: 50px;
+    text-align: center;
+}
+#contacts h2{
+    font-size: 50px;
+}
+.rectangle4{
+    position: absolute;
+    height: 10px;
+    width: 170px;
+    background-color: #1D84B5;
+    left: 674px;
+}
